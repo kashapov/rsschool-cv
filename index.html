@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="RS School CV — HTML/CSS resume page" />
+    <title>RS School CV</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="cv-header">
+        <img
+          class="cv-avatar"
+          src="./assets/avatar.svg"
+          alt="Portrait placeholder of the CV author"
+          width="140"
+          height="140"
+        />
+        <div class="cv-intro">
+          <h1>Your Name</h1>
+          <p class="cv-role">Front-end Developer</p>
+          <nav class="cv-nav" aria-label="CV sections">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#education">Education</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="contacts" class="cv-section">
+          <h2>Contacts</h2>
+          <ul class="cv-contacts">
+            <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+            <li>Phone: <a href="tel:+10000000000">+1 000 000 00 00</a></li>
+            <li>Discord: your_nick</li>
+            <li>
+              GitHub:
+              <a href="https://github.com/your-github" rel="noopener">github.com/your-github</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="about" class="cv-section">
+          <h2>About Me</h2>
+          <p>
+            A short summary describing your goals, priorities and strengths. Mention prior
+            experience if you have any, or your motivation to learn and grow as a developer.
+          </p>
+        </section>
+
+        <section id="skills" class="cv-section">
+          <h2>Skills</h2>
+          <ul class="cv-skills">
+            <li>HTML5 &amp; semantic markup</li>
+            <li>CSS3, Flexbox &amp; Grid</li>
+            <li>JavaScript (ES2015+)</li>
+            <li>Git &amp; GitHub</li>
+            <li>Responsive design</li>
+          </ul>
+        </section>
+
+        <section id="code" class="cv-section">
+          <h2>Code Example</h2>
+          <p>A small Codewars solution written with plain characters, not an image:</p>
+          <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+        </section>
+
+        <section id="experience" class="cv-section">
+          <h2>Experience</h2>
+          <ul class="cv-experience">
+            <li>
+              <h3>rsschool-cv</h3>
+              <p>
+                Personal CV built with semantic HTML and CSS.
+                <a href="https://github.com/your-github/rsschool-cv" rel="noopener">Source code</a>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section id="education" class="cv-section">
+          <h2>Education</h2>
+          <ul class="cv-education">
+            <li>The Rolling Scopes School — Fullstack Engineering</li>
+          </ul>
+        </section>
+
+        <section id="english" class="cv-section">
+          <h2>English</h2>
+          <p>
+            Level: describe your level (for example, B1 — Intermediate) and any language practice.
+          </p>
+        </section>
+      </main>
+
+      <footer class="cv-footer">
+        <a class="cv-github" href="https://github.com/your-github" rel="noopener">GitHub</a>
+        <span class="cv-year">2026</span>
+        <a
+          class="cv-course"
+          href="https://rs.school/"
+          rel="noopener"
+          aria-label="The Rolling Scopes School"
+        >
+          <img src="./assets/rs-school-logo.svg" alt="The Rolling Scopes School logo" height="32" />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
